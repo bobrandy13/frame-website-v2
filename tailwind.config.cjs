@@ -2,11 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      'titles': ["Abolition Test"]
+    },
     extend: {
       backgroundImage: {
-        'backgroundimage': "url('/public/background.jpg')"
+        'backgroundimage': "url('/public/cool-background.svg')"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin"),
+    require("daisyui")
+  ],
 };
