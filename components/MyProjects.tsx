@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import Project from "./Projects"
+
+const foo = "helo"
 
 function MyProjects() {
   return (
@@ -13,7 +15,7 @@ function MyProjects() {
             projectName="Frame Website"
             projectGitURL=""
             projectImage="/../public/frames.jpg"
-            projectDescription=""
+            projectDescription="This was a project that I built for my parents, using technologies such as NextJS, Tailwind, MongoDB, Prisma, and Vercel."
             technologies={["nextjs", "prisma", "mongodb", "tailwind"]}
           />
           <Project

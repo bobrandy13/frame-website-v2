@@ -2,10 +2,12 @@ import Head from "next/head";
 import type { NextPage } from "next";
 import 'reactjs-popup/dist/index.css'
 import Tags from "components/Tags";
+import Carousel from "components/Carousel"
 import Testomonials from "components/Testmonials";
 
 import Image from "next/image";
 import MyProjects from "components/MyProjects";
+import { ImportContacts } from "@mui/icons-material";
 
 const Home: NextPage = () => {
   return (
@@ -37,6 +39,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
+      {/* <Carousel /> */}
       <MyProjects />
       <Testomonials />
     </>
