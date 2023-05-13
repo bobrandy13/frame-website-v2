@@ -2,8 +2,8 @@ import React from "react";
 
 function Testomonials() {
   return (
-      <div id="testomanials" className="carousel rounded-box m-2 gap-2 font-sdf">
-        <div className="carousel-item flex h-full w-full items-center justify-center bg-slate-600">
+      <div id="testomanials" className="carousel rounded-box m-2 gap-2 font-sdf bg-white">
+        <div className="carousel-item flex h-full w-full items-center justify-center bg-slate-300">
           <div className="">
             <div className="m-10">
               <figure className="mx-auto max-w-screen-md text-center">

@@ -5,7 +5,7 @@ import Project from "./Projects"
 function MyProjects() {
   return (
     <section id="myProjects" className="smooth-scroll block">
-      <div className="bg-[url('../../public/cool-background.svg')] bg-cover bg-fixed h-full">
+      <div className="bg-[url('../../public/cool-background.svg')] bg-cover bg-white bg-fixed h-full">
         <h1 className="pt-10 text-center align-middle font-titles text-5xl ">
           My Projects
         </h1>
