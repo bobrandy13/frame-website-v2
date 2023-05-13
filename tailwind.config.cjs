@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       'titles': ["Abolition Test"],
       'sourcecode': ["Source Code Pro ExtraLight"],
+      'sdf': ["Cabin"]
     },
     extend: {
       animation: {

@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
         <div className="flex min-h-screen flex-col items-center justify-center">
           <div className={"m-0 text-center place-content-center grid min-h-full"}>
-            <h1 className={"font-sourcecode relative text-gray-700 before:content-[''] before:absolute before:top-0 before:right-0 before:left-0 before:bottom-0 after:absolute after:top-0 after:right-0 after:left-0 after:bottom-0 before:bg-[#AEC6CF] before:animate-typewriter after:w-[.125em] after:bg-black after:animate-blink after:animate-typewriter"} style={{
+            <h1 className={"font-sdf relative text-gray-700 before:content-[''] before:absolute before:top-0 before:right-0 before:left-0 before:bottom-0 after:absolute after:top-0 after:right-0 after:left-0 after:bottom-0 before:bg-[#AEC6CF] before:animate-typewriter after:w-[.125em] after:bg-black after:animate-blink after:animate-typewriter"} style={{
               fontSize: "clamp(1rem, 3vw + 1rem, 4rem)"
 
             }}>Hello, my name is Kevin</h1>
