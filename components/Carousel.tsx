@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Carousel = () => {
   return (
@@ -15,3 +15,4 @@ const Carousel = () => {
 };
 
 export default Carousel;
+

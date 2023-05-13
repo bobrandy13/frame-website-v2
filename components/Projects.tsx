@@ -27,7 +27,7 @@ function Projects({ projectName, projectGitURL, projectImage, projectDescription
             <div className='p-3 m-3 border w-48 rounded border-gray-900 ml-2'>
               <Link href={projectGitURL}>
                 <Image
-                  src="/../public/github-mark.png"
+                  src="/github-mark.png"
                   alt="github logo"
                   width={30}
                   height={30}

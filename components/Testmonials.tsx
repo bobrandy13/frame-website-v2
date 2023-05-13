@@ -1,10 +1,9 @@
-import Image from "next/image";
 import React from "react";
 
 function Testomonials() {
   return (
       <div id="testomanials" className="carousel rounded-box m-2 gap-2">
-        <div className="carousel-item flex h-full w-4/5 items-center justify-center bg-slate-100">
+        <div className="carousel-item flex h-full w-full items-center justify-center bg-slate-100">
           <div className="">
             <div className="m-10">
               <figure className="mx-auto max-w-screen-md text-center">
@@ -45,7 +44,7 @@ function Testomonials() {
             </div>
           </div>
         </div>
-        <div className="carousel-item flex h-full w-4/5 items-center justify-center bg-slate-100">
+        {/* <div className="carousel-item flex h-full w-4/5 items-center justify-center bg-slate-100">
           <div className="">
             <div className="m-10">
               <figure className="mx-auto max-w-screen-md text-center">
@@ -84,7 +83,7 @@ function Testomonials() {
               </figure>
             </div>
           </div>
-        </div>
+        </div> */}
      
          
 
