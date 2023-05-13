@@ -18,14 +18,14 @@ const Home: NextPage = () => {
       <main className="smooth-scroll min-h-screen bg-[#AEC6CF]">
         <Tags />
 
-        <div className="flex min-h-screen flex-col items-center justify-center">
-          <div className={"m-0 text-center place-content-center grid min-h-full"}>
+        <div className="flex h-screen flex-col items-center justify-center">
+          <div className={"m-0 text-center place-content-center grid"}>
             <h1 className={"font-sdf relative text-gray-700 before:content-[''] before:absolute before:top-0 before:right-0 before:left-0 before:bottom-0 after:absolute after:top-0 after:right-0 after:left-0 after:bottom-0 before:bg-[#AEC6CF] before:animate-typewriter after:w-[.125em] after:bg-black after:animate-blink after:animate-typewriter"} style={{
               fontSize: "clamp(1rem, 3vw + 1rem, 4rem)"
 
             }}>Hello, my name is Kevin</h1>
           </div>
-          <div className="text-gray-600 font-sourcecode text-xl text-bold text-center">I am a High School Student at Cherrybrook Technology High School. </div>
+          <div className="text-gray-600 font-sdf text-xl text-bold text-center">I am a High School Student at Cherrybrook Technology High School. </div>
           {/*<h1 className="text-6xl text-white">Kevin Huang</h1>*/}
           {/*<h1 className="mt-4 text-3xl text-white">About me</h1>*/}
           {/*<Image*/}
